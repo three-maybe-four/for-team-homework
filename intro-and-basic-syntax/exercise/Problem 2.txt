@@ -1,0 +1,17 @@
+using System;
+
+namespace GitHub_p02
+{
+    class GitHub_p02
+    {
+        static void Main(string[] args)
+        {
+            double width = double.Parse(Console.ReadLine());
+            double height = double.Parse(Console.ReadLine());
+
+            double area = width * height;
+
+            Console.WriteLine($"{area:F2}");
+        }
+    }
+}
