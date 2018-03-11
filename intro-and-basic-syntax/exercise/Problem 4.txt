@@ -1,0 +1,21 @@
+using System;
+
+namespace _4_BevLabels
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            var name = Console.ReadLine();
+            var quantity = double.Parse(Console.ReadLine());
+            var energy = double.Parse(Console.ReadLine());
+            var sugar = double.Parse(Console.ReadLine());
+
+            energy *= (quantity / 100);
+            sugar *= (quantity / 100);
+
+            Console.WriteLine($"{quantity}ml {name}:");
+            Console.WriteLine($"{energy}kcal, {sugar}g sugars");
+        }
+    }
+}
