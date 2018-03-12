@@ -6,6 +6,7 @@ namespace GitHub_p02
     {
         static void Main(string[] args)
         {
+            //finding the area of a rectanfle
             double width = double.Parse(Console.ReadLine());
             double height = double.Parse(Console.ReadLine());
 
