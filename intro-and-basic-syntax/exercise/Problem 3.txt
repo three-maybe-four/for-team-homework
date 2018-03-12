@@ -6,9 +6,11 @@ namespace Console_application
     {
         static void Main(string[] args)
         {
+                // Inptu
             var miles = double.Parse(Console.ReadLine());
             var kilometres = miles * 1.60934;
 
+                // Print the Result
             Console.WriteLine($"{kilometres:f2}");
         }
     }
