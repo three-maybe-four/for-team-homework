@@ -9,13 +9,13 @@ namespace _4_BevLabels
             var name = Console.ReadLine();
             var quantity = double.Parse(Console.ReadLine());
             var energy = double.Parse(Console.ReadLine());
-            var sugar = double.Parse(Console.ReadLine());
+            var sugarRRR = double.Parse(Console.ReadLine());
 
             energy *= (quantity / 100);
-            sugar *= (quantity / 100);
+            sugarRRR *= (quantity / 100);
 
             Console.WriteLine($"{quantity}ml {name}:");
-            Console.WriteLine($"{energy}kcal, {sugar}g sugars");
+            Console.WriteLine($"{energy}kcal, {sugarRRR}g sugars");
         }
     }
 }
