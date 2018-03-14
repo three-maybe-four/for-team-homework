@@ -6,6 +6,8 @@ namespace P01_DebitCardNumber
     {
         public static void Main(string[] args)
         {
+	 //CONFIRMED from <GrudevZ>
+	 
 	//Getting some numbers
             var input1 = int.Parse(Console.ReadLine());
             var input2 = int.Parse(Console.ReadLine());
