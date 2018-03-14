@@ -1,7 +1,7 @@
  
  
 
-### Problem 3.                 
+### Problem 3.Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â 
 Miles to Kilometers
 
 Write a program, which **converts****miles** to **kilometers**. **Format** the output to the **2
@@ -24,7 +24,7 @@ mile == 1.60934 kilometers**
 
  
 
-** **
+**Â **
 
  
 
@@ -36,7 +36,7 @@ mile == 1.60934 kilometers**
 
  
 
-** **
+**Â **
 
  
 
@@ -46,6 +46,62 @@ mile == 1.60934 kilometers**
 
 **Output**
 
- 
 
+### Problem 4.
+Beverage Labels
+
+Write a program, which reads a food product name, volume, energy content****per 100ml and sugar content per 100ml. Calculate the energy and sugar content for the given volume and print them on the console in the following format:
+
+Name â€“ as per the input
+Volume â€“ integer, suffixed by â€œmlâ€ (e.g. â€œ220mlâ€)
+Energy content â€“ integer, suffixed by â€œkcalâ€ (e.g. â€œ500kcalâ€)
+Sugar content â€“ integer, suffixed by â€œgâ€ (e.g. â€œ30gâ€)
+Examples
+Input
+
+Nuka-Cola
+
+220
+
+300
+
+70
+
+Output
+
+220ml	Nuka-Cola:
+
+660kcal, 154g sugars
+
+Input
+
+Ice	Cold Nuka-Cola
+
+250
+
+350
+
+65
+
+Output
+
+250ml	Ice Cold Nuka-Cola:
+
+875kcal, 162.5g sugars
+
+Input
+
+Nuka-Cola	Quantum
+
+350
+
+600
+
+140
+
+Output
+
+350ml	Nuka-Cola Quantum:
+
+2100kcal, 490g sugars
  
