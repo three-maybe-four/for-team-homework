@@ -8,10 +8,10 @@ namespace Console_application
         {
                 // Input
             var miles = double.Parse(Console.ReadLine());
-            var kilometres = miles * 1.60934;
+            var kms = miles * 1.60934;
 
                 // Print the Result
-            Console.WriteLine($"{kilometres:f2}");
+            Console.WriteLine($"{kms:f2}");
         }
     }
 }
