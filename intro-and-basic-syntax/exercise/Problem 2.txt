@@ -1,3 +1,4 @@
+//CONFIRMED from TrustMeIAmAProfessional
 using System;
 
 namespace GitHub_p02
@@ -10,9 +11,9 @@ namespace GitHub_p02
             double width = double.Parse(Console.ReadLine());
             double height = double.Parse(Console.ReadLine());
 
-            double area = width * height;
+            double S = width * height;
 
-            Console.WriteLine($"{area:F2}");
+            Console.WriteLine($"{S:F2}");
         }
     }
 }
