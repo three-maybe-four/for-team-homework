@@ -8,14 +8,20 @@ namespace _4_BevLabels
     {
         static void Main(string[] args)
         {
+           //The program reads the name the volume of the drink and enegry content of the drink
+           
             var name = Console.ReadLine();
             var quantity = double.Parse(Console.ReadLine());
             var energy = double.Parse(Console.ReadLine());
             var sugarRRR = double.Parse(Console.ReadLine());
+            
+            //the program calculates the sugar content
 
             energy *= (quantity / 100);
             sugarRRR *= (quantity / 100);
 
+            
+            //the program writes down the results
             Console.WriteLine($"{quantity}ml {name}:");
             Console.WriteLine($"{energy}kcal, {sugarRRR}g sugars");
         }
