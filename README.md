@@ -17,6 +17,38 @@ Write a program, which receives 4 integers on the console and prints them in 4-d
 123  
 22       |0812 0321 0123 0022
 
+Code:
+using System;
+
+ namespace GitHub_p02
+
+ {
+
+     class GitHub_p02
+
+     {
+
+         static void Main(string[] args)
+
+         {
+
+             //finding the area of a rectanfle
+
+             double width = double.Parse(Console.ReadLine());
+
+             double height = double.Parse(Console.ReadLine());
+
+             double area = width * height;
+
+             Console.WriteLine($"{area:F2}");
+
+         }
+
+     }
+
+ }
+
+
 ### Problem 3.                 
 Miles to Kilometers
 
